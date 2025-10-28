@@ -70,8 +70,7 @@ echo "net.ipv4.ip_forward=1" | sudo tee -a /etc/sysctl.conf
 sudo sysctl -p
 
 # Start Tailscale and advertise LAN subnet
-sudo tailscale up --advertise-routes=192.168.0.0/24 --accept-dns=false
-
+sudo tailscale up --advertise-routes=192.168.0.0/24 --accept-routes=true --ssh
 # Optional: firewall rules to forward traffic
 sudo iptables -A FORWARD -i tailscale0 -o eth0 -j ACCEPT
 sudo iptables -A FORWARD -i eth0 -o tailscale0 -m state --state RELATED,ESTABLISHED -j ACCEPT
