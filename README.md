@@ -15,7 +15,7 @@ Enable secure remote access to the Dell PowerEdge T630 iDRAC management interfac
 | Router | Ooredoo Router (192.168.0.1) |
 | LAN Subnet | 192.168.0.0/24 (mask 255.255.255.0) |
 | iDRAC IP | 192.168.0.118 |
-| iDRAC MAC Address | 44:A8:42:0C:11:02 |
+| iDRAC MAC Address | -:-:-:-:-:- |
 | Raspberry Pi | Connected to the same LAN (Ethernet) |
 | VPN Solution | Tailscale |
 | Goal | Access iDRAC securely from any external network |
