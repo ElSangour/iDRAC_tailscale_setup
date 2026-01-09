@@ -1,6 +1,5 @@
 # Dell PowerEdge T630 – Remote iDRAC Access via Raspberry Pi and Tailscale
-This is repo is designed as a guided roadmap to configure remote access to DELL servers using iDRAC inside a secure VPN with tailscale and using a cheap RasberryPI as an internet gateway.
-
+Secure remote access to Dell iDRAC from anywhere using a Tailscale VPN and a Raspberry Pi configured as a subnet gateway. This repository provides a step-by-step guide and scripts to expose iDRAC safely without port forwarding, enabling zero-trust remote server management.
 ## Objective
 Enable secure remote access to the Dell PowerEdge T630 iDRAC management interface from any network using a Tailscale VPN and a Raspberry Pi configured as a subnet gateway.
 
